@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+@import 'mixin.scss';
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    height: 1000px;
+   
+    & h2 {
+        font-size: 2em;
+        background-color: rgb(141, 93, 54);
+        border-radius: 20px 20px 0px 0px; 
+        margin-bottom: 50px;
+    }
+
+    .div1 {
+        @include card;
+    }
+
+    .div2 {
+        @include card;
+    }
+}

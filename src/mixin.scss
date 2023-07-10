@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+
+@mixin card {
+    border-radius: 30px;
+    width: 30%;
+    height: 50%;
+    background-color: rgb(161, 168, 166);
+    border: solid rgb(141, 93, 54) 5px;
+    font-size: 1.5em;
+
+    & dt {
+        font-size: 1.5em;
+        font-style: bold;
+        font-weight: 700;
+    }
+
+    & dd {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+}
